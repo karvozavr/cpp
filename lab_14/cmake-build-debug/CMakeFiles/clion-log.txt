@@ -1,4 +1,8 @@
 /opt/clion/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/karvozavr/lessons/cpp/forked/cpp/lab_14
 -- Configuring done
+CMake Error at CMakeLists.txt:13 (add_executable):
+  CXX_STANDARD is set to invalid value '03'
+
+
 -- Generating done
 -- Build files have been written to: /home/karvozavr/lessons/cpp/forked/cpp/lab_14/cmake-build-debug

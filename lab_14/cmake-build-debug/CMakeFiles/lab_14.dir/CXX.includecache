@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/matrix.h
+vector
+-
+string
+-
+iostream
+-
+fstream
+-
+cstddef
+-
+stdint.h
+-
+
+/home/karvozavr/lessons/cpp/forked/cpp/lab_14/src/main.cpp
+matrix.h
+/home/karvozavr/lessons/cpp/forked/cpp/lab_14/src/matrix.h
+array
+-
+
+/home/karvozavr/lessons/cpp/forked/cpp/lab_14/src/matrix.cpp
+matrix.h
+/home/karvozavr/lessons/cpp/forked/cpp/lab_14/src/matrix.h
+
